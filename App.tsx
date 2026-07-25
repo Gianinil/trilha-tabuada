@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Pressable } from "react-native";
+import { TelaInicio } from './src/screens/TelaInicio';
 
 export default function App() {
   return (
@@ -30,6 +31,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#FFFFFF",
     marginBottom: 48,
+    textAlign: 'center',
+
   },
   botao: {
     backgroundColor: "#FACC15",
