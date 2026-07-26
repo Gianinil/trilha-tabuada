@@ -5,7 +5,7 @@ export type EstadoLicao = {
   fila: Exercicio[];
   respondidos: number;
   acertosPrimeira: number;
-  emRevisao: set<string>;
+  emRevisao: Set<string>;
   tempos: number[];
   totalOriginal: number;
 };
